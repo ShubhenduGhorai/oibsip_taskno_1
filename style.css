@@ -1,0 +1,277 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(87, 88, 26, 0.65),rgba(9,0,77,0.65)), url(./img/back_ground.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left{
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(226, 217, 217);
+}
+
+.center{
+   max-width: 650px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+}
+
+.center h1{
+    color: white;
+}
+
+.center button{
+    padding: 7px;
+    background-color: #e75871;
+    border: 2px solid #e75871;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.center button:hover{
+    background-color: rgb(192, 200, 44);
+    border: 2px solid rgb(192, 200, 44);
+}
+
+.center div{
+    font-size: 1.5rem;
+}
+
+.btn button{
+    padding: 8px;
+    font-size: 1rem;
+    background-color: #3bbfd6;
+    border: 2px solid #3bbfd6;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: rgb(12, 148, 207);
+    border: 2px solid rgb(12, 148, 207);
+}
+
+.first{
+    max-width: 80vw;
+     margin: auto;
+     height: 130vh;
+}
+
+.first-section{
+    margin: 8% 0;
+}
+
+.box-first{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid white;
+    float: left;
+    width: 3500px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid white;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 300px;
+    border-radius: 6px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  hr{
+    margin: 0 50px;
+  }
+
+  .second{
+    max-width: 80vw;
+     margin: auto;
+     height: 80vh;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
+.head-span{
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: #F5F5F5;
+}
+
+  .third{
+    margin-top: 50px;
+    height: 70vh;
+  }
+
+  .enquary-form {
+    max-width: 500px;
+    margin-top: 70px ;
+    margin-left: 650px;
+    background-color: rgba(87, 88, 26, 0.65);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: grid;
+    gap: 15px;
+    height: 400px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: rgba(9,0,77,0.65);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .third{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./img/form.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+
+.last-footer{
+    width: 100%;
+    min-height: 10vh;
+    margin-top: auto;
+    background-color:rgb(40, 40, 112);
+    opacity: 5;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+  .footer-section {
+    padding-right: 20px;
+    margin-left: 50px;
+  }
+
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-credits {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .footer-credits p {
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-section {
+      padding-right: 0;
+    }
+  }
+
